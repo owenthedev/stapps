@@ -16,7 +16,7 @@ st.write("""
          Owen Nxumalo
          """)
 st.image('https://www.apple.com/newsroom/images/live-action/wwdc-2021/Apple_WWDC21-Apple-Design-Awards_061021_big.jpg.large_2x.jpg')
-fp="C:/Users/owenn/data/datasets/applestock.csv"         
+fp="https://raw.githubusercontent.com/owenthedev/stapps/main/applestock.csv"         
 df=pd.read_csv(filepath_or_buffer=fp)
 st.write("""
          # Apple
@@ -69,3 +69,4 @@ st.write(f'The average share price over the period was ${avg}')
 st.write(f'The variance of the stock prices is {vary}')
 st.video('https://www.youtube.com/watch?v=8w4qPUSG17Y')
 st.audio()
+
