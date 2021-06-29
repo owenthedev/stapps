@@ -22,7 +22,7 @@ int_slider=st.slider('Interest rate %, Slide to choose your interest rate', min_
 deposit=100
 n=2
 future_value=round((deposit*(1+(int_slider/100))**n),2)
-st.write(f'Assuming a ${deposit} deposit into a savings account over {n} years, your money would grow to the value of:')
+st.write(f'Assuming a R{deposit} deposit into a savings account over {n} years, your money would grow to the value of:')
 st.write(f'## R{future_value}')
 #fp="https://raw.githubusercontent.com/owenthedev/stapps/main/applestock.csv"         
 #df=pd.read_csv(filepath_or_buffer=fp)
