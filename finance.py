@@ -18,7 +18,7 @@ st.write('Not sure who it was, but someone said that compund interest is the 8th
 int_slider=st.slider('Interest rate %', min_value=1, max_value=20)
 deposit=100
 n=2
-future_value=deposit*(1+(int_slider/100))**n
+future_value=round(deposit*(1+(int_slider/100))**n),2)
 st.write(f'Assuming a ${deposit} deposit into a savings account over {n} years, your money would grow to the value of R{future_value}')
 #fp="https://raw.githubusercontent.com/owenthedev/stapps/main/applestock.csv"         
 #df=pd.read_csv(filepath_or_buffer=fp)
