@@ -60,8 +60,6 @@ def variance(dataf):
 avg=average(df)
 vary=variance(df)
 st.write(f'The maximum share price was ${max} was reached {days_since_max} days ago')
-st.markdown("""_max=round(df['Open'].max(),2)_""") # see *
-st.markdown('_Markdown_') # see *
 st.write('')
 st.write(f'The minimum share price was ${min}, which was {days_since_min} days ago')
 st.write('')
