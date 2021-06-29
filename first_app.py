@@ -68,5 +68,6 @@ st.write('')
 st.write(f'The average share price over the period was ${avg}')
 st.write(f'The variance of the stock prices is {vary}')
 st.video('https://www.youtube.com/watch?v=8w4qPUSG17Y')
-st.audio('https://github.com/owenthedev/stapps/blob/main/TommyV%20%26%20Sam%20Mkhize%20-%20This%20Feeling%20(Original%20Mix).mp3')
+st.audio('https://github.com/owenthedev/stapps/raw/main/TommyV%20%26%20Sam%20Mkhize%20-%20This%20Feeling%20(Original%20Mix).mp3')
+
 
