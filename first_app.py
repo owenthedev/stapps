@@ -66,8 +66,6 @@ st.write(f'The variance of the stock prices is {vary}')
 st.write('')
 st.write("""Apple is trading above it's average price, with it's current price just lower than it's 5 year high that it set not long ago. This says that Apple is keeping it's momentum.
             Something that will bother the untrained observer is Apple's large variance (volatility). We should not be worried as the trend of the stock has been upwards for the bulk of the period.""")
-
-st.video('https://www.youtube.com/watch?v=8w4qPUSG17Y')
 st.audio('https://github.com/owenthedev/stapps/raw/main/TommyV%20%26%20Sam%20Mkhize%20-%20This%20Feeling%20(Original%20Mix).mp3')
 
 
