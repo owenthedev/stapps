@@ -18,8 +18,8 @@ st.write('Not sure who it was, but someone said that compund interest is the 8th
 
 st.write('')
 st.write("""# Sliding into your bank balance
-            Compund Interest
  """)
+st.write('## Compound Interest')
 int_slider=st.slider('Interest rate %, Slide to choose your interest rate', min_value=1, max_value=20,key=1)
 deposit=100
 n=2
@@ -27,9 +27,7 @@ future_value=round((deposit*(1+(int_slider/100))**n),2)
 st.write('your money would grow to the value of:')
 st.write(f'## R{future_value}')
 st.write(f'Assuming a R{deposit} deposit into a savings account over {n} years.')
-st.write("""
-Simple Interest
-""")
+st.write("## Simple Interest")
 
 int_slidertwo=st.slider('Interest rate %, Slide to choose your interest rate', min_value=1, max_value=20,key=2)
 future_valuetwo=deposit*(1+(int_slidertwo*n/100))
