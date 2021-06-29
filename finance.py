@@ -35,7 +35,7 @@ st.write("""# Sliding into your bank balance
 int_slidertwo=st.slider('Interest rate %, Slide to choose your interest rate', min_value=1, max_value=20)
 future_valuetwo=deposit*(1+(int_slidertwo*n/100))
 st.write(f'Assuming a R{deposit} deposit into a savings account over {n} years, your money would grow to the value of:')
-st.write(f'## R{future_value2}')
+st.write(f'## R{future_valuetwo}')
 st.write('')
 st.write('Comparing the final result between the two types of interest we can see that, given the same initial deposit, time period and rate,compound interest is superior. Even though the standard is to offer compound interest rates, banks have tried to lure depositors by using a high simple interest rate to make it appear that their offer is better.')
 #fp="https://raw.githubusercontent.com/owenthedev/stapps/main/applestock.csv"         
