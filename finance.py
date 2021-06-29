@@ -31,9 +31,9 @@ st.write('')
 st.write("""# Sliding into your bank balance
             ## Simple Interest
  """)
-int_slider2=st.slider('Interest rate %, Slide to choose your interest rate', min_value=1, max_value=20)
 
-future_value2=round((deposit*(1+(int_slider2/100)*n),2)
+int_slidertwo=st.slider('Interest rate %, Slide to choose your interest rate', min_value=1, max_value=20)
+future_valuetwo=deposit*(1+(int_slidertwo*n/100))
 st.write(f'Assuming a R{deposit} deposit into a savings account over {n} years, your money would grow to the value of:')
 st.write(f'## R{future_value2}')
 st.write('')
