@@ -41,7 +41,7 @@ st.write(f'## R{future_valuetwo}')
 st.write(f'Assuming a R{deposit} deposit into a savings account over {n} years')
 st.write('')
 st.write("""
-#Interesting Conclusion 
+# Interesting Conclusion 
 """)
 st.write('Comparing the final result between the two types of interest we can see that, given the same initial deposit, time period and rate,compound interest is superior. Even though the standard is to offer compound interest rates, banks have tried to lure depositors by using a high simple interest rate to make it appear that their offer is better.')
 #fp="https://raw.githubusercontent.com/owenthedev/stapps/main/applestock.csv"         
