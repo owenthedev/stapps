@@ -34,7 +34,7 @@ st.write('')
 st.write("## Simple Interest")
 st.write('')
 int_slidertwo=st.slider('Interest rate %, Slide to choose your interest rate', min_value=1, max_value=20,key=2)
-future_valuetwo=deposit*(1+(int_slidertwo*n/100))
+future_valuetwo=round(deposit*(1+(int_slidertwo*n/100)),2)
 
 st.write('your money would grow to the value of:')
 st.write(f'## R{future_valuetwo}')
