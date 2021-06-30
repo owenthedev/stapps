@@ -44,5 +44,7 @@ st.write("""
 # Interesting Conclusion 
 """)
 st.write('Comparing the final result between the two types of interest we can see that, given the same initial deposit, time period and rate,compound interest is superior. Even though the standard is to offer compound interest rates, banks have tried to lure depositors by using a high simple interest rate to make it appear that their offer is better.')
+st.write('')
+st.checkbox('Was this helpful?')
 #fp="https://raw.githubusercontent.com/owenthedev/stapps/main/applestock.csv"         
 #df=pd.read_csv(filepath_or_buffer=fp)
