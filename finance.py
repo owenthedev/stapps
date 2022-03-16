@@ -9,7 +9,7 @@ import streamlit as st
 st.title("This week on Stocks")
 st.write("""
          ## Interest(ing): Simple vs Compound
-         30 June, 2021
+         16 March, 2021
          
          Owen Nxumalo
          """)
