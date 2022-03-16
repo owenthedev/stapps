@@ -6,7 +6,7 @@ Created on Sun Jun 20 18:32:32 2021
 import numpy as np
 import pandas as pd
 import streamlit as st
-st.title("Hello Carl, Welcome to This week on Stocks")
+st.title("Welcome to Quick Fintech")
 st.write("""
          ## Interest(ing): Simple vs Compound
          16 March, 2021
